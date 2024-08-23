@@ -2,6 +2,13 @@
 """ Test link Many-To-Many Place <> Amenity
 """
 from models import *
+from models import storage
+from models.state import State
+from models.city import City
+from models.amenity import Amenity
+from models.place import Place
+from models.user import User
+
 state = State(name="California")
 state.save()
 
